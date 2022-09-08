@@ -1,0 +1,2 @@
+# paprika
+ weboldal programozas feladat 
