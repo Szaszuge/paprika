@@ -1,0 +1,88 @@
+body 
+{
+    background-color: papayawhip;
+    color:saddlebrown;
+    max-width: 1000px;
+    margin:auto
+}
+
+#fejlec {
+    background-image: url("szines.jpg");
+    background-size: auto;
+    padding: 1rem;
+}
+
+#keret {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    #keret {
+        flex-wrap: wrap;
+    }
+    
+    #fajtai {
+        margin: auto;
+        width: 100%;
+    }
+
+    #fajtai ul {
+        text-align: center;
+    }
+
+    #fajtai ul li {
+        display: inline-block;
+    }
+} 
+
+
+#fajtai ul li {
+    list-style-image: url("papr.png");
+    background-color: white;
+    border: 1px solid cadetblue;
+    padding: 10px;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#fajtai ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+table {
+    width: 300px;
+    margin: 20px auto auto auto;
+    border-collapse: collapse;
+}
+
+table, th, tr, td {
+    border: 1px solid black;    
+    font-weight: bold;
+    padding: 5px;
+}
+
+table td:nth-child(2) {
+    width: 120px;
+    text-align: center;
+}
+
+table tr:nth-child(2) td:nth-child(2) {
+    background-color: greenyellow;
+}
+
+table tr:nth-child(3) td:nth-child(2) {
+    background-color: yellow;
+}
+
+table tr:nth-child(4) td:nth-child(2) {
+    background-color: palevioletred;
+}
+
+table tr:nth-child(5) td:nth-child(2) {
+    background-color: plum; 
+}
