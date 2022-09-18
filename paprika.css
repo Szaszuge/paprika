@@ -12,7 +12,7 @@ body
     padding: 1rem;
 }
 
-#keret {
+#fokeret {
     display: flex;
     flex-direction: row;
     gap: 3rem;
@@ -20,27 +20,27 @@ body
 }
 
 @media screen and (max-width: 1000px) {
-    #keret {
+    #fokeret {
         flex-wrap: wrap;
     }
     
-    #fajtai {
+    #menu {
         margin: auto;
         width: 100%;
     }
 
-    #fajtai ul {
+    #menu ul {
         text-align: center;
     }
 
-    #fajtai ul li {
+    #menu ul li {
         display: inline-block;
     }
 } 
 
 
-#fajtai ul li {
-    list-style-image: url("papr.png");
+#menu ul li {
+    list-style-image: url("chili-pepper-icon.gif");
     background-color: white;
     border: 1px solid cadetblue;
     padding: 10px;
@@ -49,7 +49,7 @@ body
     margin-bottom: 10px;
 }
 
-#fajtai ul li a {
+#menu ul li a {
     text-decoration: none;
     color: #000;
 }
@@ -76,7 +76,7 @@ table tr:nth-child(2) td:nth-child(2) {
 }
 
 table tr:nth-child(3) td:nth-child(2) {
-    background-color: yellow;
+    background-color: rgb(0, 255, 255);
 }
 
 table tr:nth-child(4) td:nth-child(2) {
