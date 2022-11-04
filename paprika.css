@@ -65,7 +65,8 @@ table {
     margin: 20px auto auto auto;
     border-collapse: collapse;
     color: #000;
-    outline-style: dotted
+    outline-style: dotted;
+    outline-color: red; 
 }
 
 table, th, tr, td {
