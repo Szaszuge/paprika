@@ -65,13 +65,11 @@ table {
     margin: 20px auto auto auto;
     border-collapse: collapse;
     color: #000;
-    outline-style: dotted;
     outline-color: red; 
 }
 
 table, th, tr, td {
     border: 1px solid black;
-    border-radius: 1rem;
     text-shadow: black;    
     font-weight: bold;
     padding: 5px;
